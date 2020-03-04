@@ -1,0 +1,79 @@
+img {
+  max-width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: #fff;
+}
+
+.v-line {
+  border-right: 1px solid #ffffff;
+  height: 17px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  padding: 0 .5em;
+}
+
+.places {
+  background: #fda660;
+}
+
+
+.list {
+height: 140px;
+  overflow-y: scroll;
+  padding: 0 1em;
+  background: #ffffff;
+
+  &::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    background-color: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #fda660;
+  }
+
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.village {
+
+  background: #ffffff;
+  & h3 {
+    text-align: center;
+    font-size: .95em;
+    color: #000;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+  }
+}
+
+span.line {
+  background: url(https://potre.github.io/hot-weather-widget/line.2d5e8a4f80b2e94ac8c5.png) no-repeat;
+  width: 103px;
+  height: 2px;
+  display: block;
+  margin: .6em auto 0;
+}

@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+
+  }
+
+  &__row-left {
+    max-width: 350px;
+    margin-right: 30px;
+  }
+
+  &__row-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+  }
+}
+
+app-weather-details {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,38 @@
+.images {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+li {
+  width: 62px;
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+}
+}
+
+.conteiner {
+  padding: 1em 0;
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #ffffff;
+}
+
+.activity-desc p {
+  color: #999;
+  font-size: .94em;
+  line-height: 1.7em;
+}
+.activity-desc h5 {
+  color: #000;
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+

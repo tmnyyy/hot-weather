@@ -1,0 +1,11 @@
+<div class="flex-container">
+  <div class="flex-container__row" >
+    <div class="flex-container__row-left">
+      <app-places-list [list]="list$ | async" (selectPlaces)="selectPlace($event)"></app-places-list>
+    </div>
+    <div class="flex-container__row-right">
+      <app-weather-details [weather]="social?.weather"></app-weather-details>
+      <app-social-info [social]="social?.social_info"></app-social-info>
+    </div>
+  </div>
+</div>

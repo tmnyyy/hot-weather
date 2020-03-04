@@ -1,0 +1,17 @@
+<div *ngIf="selectedItem" class="conteiner">
+  <img [src]="selectedItem?.img" [alt]="selectedItem?.img">
+  <div class="places">
+    <ul>
+      <li *ngFor="let state of list | states" class="v-line">
+        <a href="#" (click)="selectState(state)">{{state?.type}}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="village">
+    <h3>Righteous indignation & like</h3>
+    <span class="line"></span>
+  </div>
+  <div  class="list">
+    <app-place-item  *ngFor="let item of list | placeFilter: selectedItem?.type " [place]="item" (selectStatePlace)="selectAddress($event)"></app-place-item>
+  </div>
+</div>
