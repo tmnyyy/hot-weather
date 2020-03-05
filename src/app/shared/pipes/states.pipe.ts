@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import {IHotWeatherInfo} from '../_types';
 import {uniqBy} from 'lodash';
+import {IHotWeatherInfo} from '../services/place-state.service';
 
 @Pipe({
   name: 'states'

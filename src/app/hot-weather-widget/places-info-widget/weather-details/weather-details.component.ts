@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {IWeather} from '../_types';
+import {IWeather} from '../../../shared/services/place-state.service';
+
 
 @Component({
   selector: 'app-weather-details',

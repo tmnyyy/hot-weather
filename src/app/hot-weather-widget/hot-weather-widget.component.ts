@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {PlaceStateService} from './place-state.service';
-import {IHotWeatherInfo} from './_types';
+import {IHotWeatherInfo, PlaceStateService} from '../shared/services/place-state.service';
 import {Observable} from 'rxjs';
 
 @Component({

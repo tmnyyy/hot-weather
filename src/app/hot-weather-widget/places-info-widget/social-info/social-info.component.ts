@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ISocialInfo} from '../_types';
+import {ISocialInfo} from '../../../shared/services/place-state.service';
 
 @Component({
   selector: 'app-social-info',
