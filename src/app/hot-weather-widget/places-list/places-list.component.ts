@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {IHotWeatherInfo} from '../../../shared/services/place-state.service';
+import {IHotWeatherInfo} from '../../shared/services/place-state.service';
 
 
 @Component({
